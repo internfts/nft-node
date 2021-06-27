@@ -51,9 +51,9 @@ pub fn development_config(id: ParaId) -> ChainSpec {
 
 	ChainSpec::from_genesis(
 		// Name
-		"Development",
+		"Internft Dev Testnet",
 		// ID
-		"dev",
+		"internft_dev_testnet",
 		ChainType::Local,
 		move || {
 			testnet_genesis(
@@ -90,9 +90,9 @@ pub fn local_testnet_config(id: ParaId) -> ChainSpec {
 
 	ChainSpec::from_genesis(
 		// Name
-		"Local Testnet",
+		"Internft Local Testnet",
 		// ID
-		"local_testnet",
+		"internft_local_testnet",
 		ChainType::Local,
 		move || {
 			testnet_genesis(
